@@ -1,0 +1,153 @@
+body{
+	margin: 0px;
+	font-family: cursive;
+}
+a{
+	text-decoration: none;
+	color: black
+}
+a:hover{
+	color: blue;
+}
+
+.header{
+	align-items: center;
+	background-color: #2775C7;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	text-align: center;
+}
+.title{
+	font-size: 50px;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+	background-color: #bdffb2;
+}
+.content_1{
+	text-align: center;
+	background-color: #bdffb2;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.box{
+	text-align: center;
+	background-color: #ffd700;
+	border: 1px solid black;
+	width: 50%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer{
+	align-items: center;
+	background-color: #2775C7;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	text-align: center;
+}
+/* Стиль окна поиска */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Стиль меню навигации */
+#myMenu_1 {
+  list-style-type: none;
+  width: 33%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Стиль навигационных ссылок */
+#myMenu_1 li a  {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu_1 h1  {
+  padding: 15px;
+  font-size: 15pt;
+  color: black;
+  display: block;
+}
+#myMenu_1 li a:hover {
+  background-color: #ffd700;
+  color: blue;
+  border: 3px solid black;
+}
+#myMenu_1 h1:hover {
+  background-color: #ffd700;
+  border: 3px solid black;
+}
+#myMenu_2 {
+  list-style-type: none;
+  width: 33%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+/* Стиль навигационных ссылок */
+#myMenu_2 li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+#myMenu_2 h1  {
+   padding: 15px;
+	font-size: 15pt;
+   color: black;
+   display: block;
+}
+#myMenu_2 li a:hover {
+  background-color: #ffd700;
+  color: blue;
+  border: 3px solid black;
+}
+#myMenu_2 h1:hover {
+  background-color: #ffd700;
+  border: 3px solid black;
+}
+#myMenu_3 {
+  list-style-type: none;
+  width: 33%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+/* Стиль навигационных ссылок */
+#myMenu_3 li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+#myMenu_3 h1  {
+  padding: 15px;
+  font-size: 15pt;
+  color: black;
+  display: block;
+}
+#myMenu_3 li a:hover {
+  background-color: #ffd700;
+  color: blue;
+  border: 3px solid black;
+}
+#myMenu_3 h1:hover {
+  background-color: #ffd700;
+  border: 3px solid black;
+}
